@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Theme.ModernCleanArchitecture" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -11,6 +11,19 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.ModernCleanArchitecture.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_general_logo</item>
+        <!-- Icon splash screen background color -->
+        <item name="windowSplashScreenIconBackgroundColor">@color/purple_700</item>
+        <!-- Anim duration for splash icon -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <!-- Set the theme of the Activity that directly follows your splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.ModernCleanArchitecture</item>
+    </style>
+
 </resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ModernCleanArchitecture.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration -->
+        <item name="android:windowSplashScreenBackground">@android:color/white</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_general_logo</item>
+        <!-- Icon splash screen background color -->
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/purple_700</item>
+        <!-- Anim duration for splash icon -->
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <!-- Setup the branding image icon for splash -->
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_general_branding</item>
+        <!-- Set the theme of the Activity that directly follows your splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.ModernCleanArchitecture</item>
+    </style>
+
+</resources>
