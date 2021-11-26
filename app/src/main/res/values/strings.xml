@@ -1,3 +1,16 @@
 <resources>
+
+    <!-- System resources -->
     <string name="app_name">ModernCleanArchitecture</string>
+
+    <!-- Feature: MAIN -->
+    <!-- Feature: MAIN: Labels -->
+    <string name="label_main_search">Search</string>
+    <string name="label_main_favorites">Favorites</string>
+    <string name="label_main_about">About</string>
+    <!-- Feature: MAIN: Bottom navigation view items -->
+    <string name="item_main_search">Search</string>
+    <string name="item_main_favorites">Favorites</string>
+    <string name="item_main_about">About</string>
+
 </resources>
