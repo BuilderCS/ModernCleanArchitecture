@@ -6,8 +6,10 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import cs.builder.app.example.moderncleanarchitecture.R
 import cs.builder.app.example.moderncleanarchitecture.app.feature.splash.SplashAppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
 
 /** */
+@AndroidEntryPoint
 class MainActivity : SplashAppCompatActivity() {
 
     /** */
