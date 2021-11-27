@@ -48,6 +48,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     // Android X - Splash screen
     implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
+    // Android X - Room database
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
     // Google Material
     implementation 'com.google.android.material:material:1.4.0'
     // Dagger - Hilt
