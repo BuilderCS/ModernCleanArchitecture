@@ -4,11 +4,17 @@ package cs.builder.app.example.moderncleanarchitecture.app.pool.clean
  * Manage the status of the execution.
  * This can be [Loading] when the execution is in process, [Failed] if the execution concluded
  * with error and [Done] it the execution concluded successfully.
+ * @see None
  * @see Loading
  * @see Failed
  * @see Done
  */
 sealed class Status<F: Failure, R> {
+
+    /**
+     * Data type create when the execution is not started.
+     */
+    class None<F: Failure, R>: Status<F, R>()
 
     /**
      * Data type created when the execution is in process.

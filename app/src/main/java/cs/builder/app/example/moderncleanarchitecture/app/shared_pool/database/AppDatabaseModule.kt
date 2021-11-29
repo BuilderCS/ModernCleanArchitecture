@@ -1,4 +1,4 @@
-package cs.builder.app.example.moderncleanarchitecture.di.shared_pool.database
+package cs.builder.app.example.moderncleanarchitecture.app.shared_pool.database
 
 import android.content.Context
 import cs.builder.app.example.moderncleanarchitecture.app.shared_pool.database.AppDatabase
